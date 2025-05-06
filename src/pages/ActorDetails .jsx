@@ -31,9 +31,10 @@ import {
   Tv as TvIcon
 } from '@mui/icons-material';
 import { motion } from 'framer-motion';
-import { fetchPersonDetails, getImageUrl } from '../../services/tmdb';
-import MediaCarousel from '../../components/MediaCarousel';
-import SectionHeader from '../../components/SectionHeader';
+import { fetchPersonDetails,getImageUrl } from '../services/tmdb';
+import MediaCarousel from '../components/MediaCarousel';
+import SectionHeader from '../components/SectionHeader';
+
 
 const ActorDetails = () => {
   const { id } = useParams();
