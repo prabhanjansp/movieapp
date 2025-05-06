@@ -7,7 +7,6 @@ import {  useAppContext } from "./contexts/AppContext";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
-import { HelmetProvider } from 'react-helmet-async';
 const Home = lazy(() => import("./pages/Home"));
 const MovieDetails = lazy(() => import("./pages/MovieDetails"));
 const TvDetails = lazy(() => import("./pages/TvDetails"));
@@ -33,7 +32,7 @@ const App = () => {
 
 
   return (
-    <HelmetProvider>
+  
     <ThemeProvider theme={muiTheme}>
       <CssBaseline />
       <Router>
@@ -100,7 +99,7 @@ const App = () => {
         <Footer />
       </Router>
     </ThemeProvider>
-  </HelmetProvider>
+
   );
 };
 
