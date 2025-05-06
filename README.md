@@ -1,7 +1,7 @@
 # 🎬 Movie Explorer - TMDB Powered React App
 
 ![Project Screenshot](./image.png) 
-*(Add your screenshot image here)*
+
 
 ## 🌟 Project Description
 Movie Explorer is a modern, responsive web application built with React that allows users to discover trending movies, TV shows, and actors. Powered by the TMDB API, it offers a sleek interface with dark/light mode, search functionality, and personalized watchlists.
