@@ -36,12 +36,13 @@ import {
   Movie as MovieIcon
 } from '@mui/icons-material';
 import { motion } from 'framer-motion';
-import { fetchTVDetails, getImageUrl } from '../../services/tmdb';
-import { useAppContext } from '../../contexts/AppContext';
-import CastCarousel from '../../components/CastCarousel';
-import MediaCarousel from '../../components/MediaCarousel';
-import SectionHeader from '../../components/SectionHeader';
-import YouTubeEmbed from '../../components/YouTubeEmbed';
+
+import { fetchTVDetails, getImageUrl } from '../services/tmdb';
+import { useAppContext } from '../contexts/AppContext';
+import CastCarousel from '../components/CastCarousel';
+import MediaCarousel from '../components/MediaCarousel';
+import SectionHeader from '../components/SectionHeader';
+import YouTubeEmbed from '../components/YouTubeEmbed';
 
 const TvDetails = () => {
   const { id } = useParams();
