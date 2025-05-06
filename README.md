@@ -7,7 +7,8 @@
 Movie Explorer is a modern, responsive web application built with React that allows users to discover trending movies, TV shows, and actors. Powered by the TMDB API, it offers a sleek interface with dark/light mode, search functionality, and personalized watchlists.
 
 ## 🚀 Live Demo
-[https://movieapp-n29e.vercel.app/](#) 
+You can check out the live version of the project [here](https://movieapp-n29e.vercel.app/).
+
 
 ## ✨ Key Features
 
