@@ -1,6 +1,5 @@
 import { Box, Typography, Divider } from '@mui/material';
 import { motion } from 'framer-motion';
-
 const SectionHeader = ({ title, sx }) => {
   return (
     <Box sx={{ mb: 3, ...sx }}>

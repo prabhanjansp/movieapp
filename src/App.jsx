@@ -7,6 +7,7 @@ import {  useAppContext } from "./contexts/AppContext";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
+// import LandingPage from './pages/Landing';/
 const Home = lazy(() => import("./pages/Home"));
 const MovieDetails = lazy(() => import("./pages/MovieDetails"));
 const TvDetails = lazy(() => import("./pages/TvDetails"));
@@ -47,6 +48,7 @@ const App = () => {
               </Suspense>
             } 
           />
+        
           <Route 
             path="/movie/:id" 
             element={
