@@ -1,6 +1,6 @@
 # 🎬 Movie Explorer - TMDB Powered React App
 
-![Project Screenshot](./image.png) 
+![Project Screenshot](./img.png) 
 
 
 ## 🌟 Project Description
