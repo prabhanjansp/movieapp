@@ -4,7 +4,7 @@ import { createContext, useContext, useState, useEffect } from 'react';
 const AppContext = createContext();
 
 export const AppProvider = ({ children }) => {
-  const [theme, setTheme] = useState('dark');
+  const [theme, setTheme] = useState('light');
   const [watchlist, setWatchlist] = useState([]);
 
   // Load theme and watchlist from localStorage on initial render

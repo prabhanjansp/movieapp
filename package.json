@@ -15,7 +15,7 @@
     "@mui/icons-material": "^7.0.2",
     "@mui/material": "^7.0.2",
     "axios": "^1.9.0",
-    "framer-motion": "^12.9.7",
+    "framer-motion": "^12.23.26",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-multi-carousel": "^2.8.6",
